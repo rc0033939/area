@@ -39,17 +39,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(401, 67);
+            this.textBox1.Location = new System.Drawing.Point(135, 67);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(123, 67);
+            this.textBox3.Location = new System.Drawing.Point(410, 67);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(96, 20);
             this.textBox3.TabIndex = 2;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -89,12 +90,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(286, 124);
+            this.button1.Location = new System.Drawing.Point(270, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 35);
             this.button1.TabIndex = 7;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

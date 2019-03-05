@@ -26,5 +26,20 @@ namespace area
         {
 
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double length = double.Parse(textBox1.Text);
+            double width = double.Parse(textBox4.Text);
+            double area = length * width;
+            textBox3.AppendText(area.ToString());
+
+        }
     }
 }
